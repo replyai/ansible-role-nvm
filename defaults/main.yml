@@ -1,7 +1,7 @@
 ---
 
-nvm_version: "v0.33.0"
-nvm_node_version: "6.9.5"
+nvm_version: "master"
+nvm_node_version: "\"lts/*\""
 nvm_user: vagrant
 nvm_working_path: "/home/{{ nvm_user }}"
 nvm_dest: "{{ nvm_working_path }}/.nvm"
